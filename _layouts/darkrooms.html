@@ -1,0 +1,99 @@
+---
+layout: darkrooms
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117963829-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117963829-1');
+    </script>
+    <meta charset="UTF-8">
+    <title>Darkrooms in London for Film Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="There are {{site.darkrooms | size}} public darkrooms in London, where you can hand-print your photos the traditional way.">
+    <meta name="keywords" content="lodnon, darkroom, darkrooms, photography, film">
+    <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/cash-dom@1.3.5/dist/cash.min.js"></script>
+    <script>
+      function shuffle(a) {
+          var j, x, i;
+          for (i = a.length - 1; i > 0; i--) {
+              j = Math.floor(Math.random() * (i + 1));
+              x = a[i];
+              a[i] = a[j];
+              a[j] = x;
+          }
+        }
+
+
+      $(function(){
+        // randomise darkrooms
+        var nDarkrooms = $("#darkroom-list li").length;
+
+        var orderArray = [];
+        for (var i = 0; i < nDarkrooms; i++) {
+          orderArray[i] = i;
+        }
+        console.log(orderArray);
+        shuffle(orderArray);
+        console.log(orderArray);
+
+        $("#darkroom-list li").each(
+          function (value, index, array) {
+            $(value).css("order", orderArray[index]);
+          }
+        );
+
+        {% include mobile-nav-script.js %}
+      });
+    </script>
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="content-area">
+      <header>
+        <h1>There are {{site.darkrooms | size}} public darkrooms in London.</h1>
+      </header>
+      <main>
+      <ul id="darkroom-list">
+        {% for darkroom in site.darkrooms %}
+        <li>
+          <a href="{{darkroom.url}}">
+            <div class="main-photo">
+              <img src="images{{darkroom.id}}.jpg" />
+            </div>
+            <span class="title">{{darkroom.title}}</span>
+            <span class="address-summary">{{darkroom.contact.address-summary}}</span>
+            {% if darkroom.categories contains 'black-and-white' %}
+            <span class="black-and-white-printing">
+             <img class="printing-icon" src="/icons/black-and-white.svg"/>
+              Black & white
+            </span>
+            {% endif %}
+            {% if darkroom.categories contains 'colour' %}
+            <span class="colour-printing">
+              <img class="printing-icon" src="/icons/colour.svg"/>
+              Colour
+            </span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      </main>
+      <footer>
+        Spotted a mistake or something missing? Get in touch at
+        <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
+      </footer>
+    </div>
+  </body>
+</html>

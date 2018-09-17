@@ -1,0 +1,50 @@
+<nav>
+  <p id="logo">
+    London <span class="highlight">Film</span> Photography
+  </p>
+  <div class="menu-toggle">
+    <img src="../icons/menu.svg" alt="Toggle Menu"/>
+  </div>
+  <div class="menu">
+    <ul class="categories">
+      <li {% if page.url == '/' or page.url contains '/darkrooms' %} class="nav-selected"{% endif %}>
+        <a href="/">
+          <span class="title">Darkrooms</span> <span class="subtitle">Where to hand-print your photos the traditional way</span>
+        </a>
+      </li>
+      <li class="comingsoon">
+        <span class="title">Shops</span> <span class="subtitle">Where to buy film, paper, processing chemicals and cameras (coming soon)</span>
+      </li>
+      <li class="comingsoon">
+        <span class="title">Film processing</span> <span class="subtitle">Where to get your film professionally developed and scanned (coming soon)</span>
+      </li>
+      <li {% if page.url == '/about/' %}class="nav-selected"{% endif %}>
+        <a href="/about/">
+          <span class="title">About this site</span>
+        </a>
+      </li>
+    </ul>
+    <h2>Stay up to date</h2>
+    <form action="https://tinyletter.com/londonfilmphotography" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/londonfilmphotography', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <p><label for="tlemail"><i class="far fa-envelope"></i> Enter your email address</label></p>
+      <input type="text" name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value="Subscribe" />
+    </form>
+    <p class="social-links">
+        <a href="https://instagram.com/londonfilmphotography">
+          <i class="fab fa-instagram"></i>
+          <span class="accessible-hide">Instagram</span>
+        </a>
+        <a href="https://facebook.com/londonfilmphotography">
+          <i class="fab fa-facebook-square"></i>
+          <span class="accessible-hide">Facebook</span>
+        </a>
+        <a href="https://twitter.com/LDNfilmphoto">
+          <i class="fab fa-twitter-square"></i>
+          <span class="accessible-hide">Twitter</span>
+        </a>
+    </p>
+
+  </div>
+</nav>

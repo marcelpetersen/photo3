@@ -1,0 +1,211 @@
+---
+layout: darkroom
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117963829-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117963829-1');
+    </script>
+    <meta charset="UTF-8">
+    <title>{{page.title}} Darkroom - London Film Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cash-dom@1.3.5/dist/cash.min.js"></script>
+    <script>
+      $(function(){
+        {% include mobile-nav-script.js %}
+      });
+    </script>
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="content-area darkroom">
+      <main>
+        <header class="darkroom-header">
+          <h1>{{page.title}}</h1>
+
+          <a class="address" href="{{page.contact.gmaps-link}}"><i class="fas fa-map-pin"></i> {{page.contact.address}}, London {{page.contact.postcode}}</a>
+
+          {% if page.contact.phone %}
+          <a class="phone" href="tel:{{page.contact.phone}}"><i class="fas fa-phone"></i> {{page.contact.phone}}</a>
+          {% endif %}
+
+          <a class="email" href="mailto:{{page.contact.email}}"><i class="fas fa-envelope"></i> {{page.contact.email}}</a>
+          <a class="official-site" href="{{page.contact.official-site}}"><i class="fas fa-external-link-alt"></i> Official website</a>
+
+          {% if page.contact.facebook %}
+          <a class="facebook" href="{{page.contact.facebook}}"><i class="fab fa-facebook"></i> Facebook page</a>
+          {% endif %}
+
+          {% if page.contact.instagram %}
+          <a class="instagram" href="{{page.contact.instagram}}"><i class="fab fa-instagram"></i> Instagram page</a>
+          {% endif %}
+
+        </header>
+        <section class="narrative">
+          <h2>About this darkroom</h2>
+          {{page.content}}
+        </section>
+        <section class="opening">
+          <h2><i class="far fa-clock"></i> Opening hours</h2>
+          <table>
+            <thead class="accessible-hide">
+              <tr>
+                <th>Day</th><th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="day">Monday</td><td>{{page.opening.monday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Tuesday</td><td>{{page.opening.tuesday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Wednesday</td><td>{{page.opening.wednesday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Thursday</td><td>{{page.opening.thursday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Friday</td><td>{{page.opening.friday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Saturday</td><td>{{page.opening.saturday}}</td>
+              </tr>
+              <tr>
+                <td class="day">Sunday</td><td>{{page.opening.sunday}}</td>
+              </tr>
+            </tbody>
+          </table>
+            {% if page.opening.open-weekday-evenings %}
+            <p class="check">
+              <i class='fas fa-check-circle'></i>
+              Open weekday evenings
+              {% unless page.opening.open-weekday-evenings == true %}
+              ({{page.opening.open-weekday-evenings}})
+              {% endunless %}
+            </p>
+            {% endif %}
+
+            {% if page.opening.open-weekends %}
+            <p class="check">
+              <i class='fas fa-check-circle'></i>
+              Open weekends
+              {% unless page.opening.open-weekends == true %}
+              ({{page.opening.open-weekends}})
+              {% endunless %}
+            </p>
+            {% endif %}
+          </ul>
+        </section>
+        <section class="pricing">
+          <h2><i class="fas fa-pound-sign"></i> Pricing</h2>
+          <h3>Membership fee</h3>
+          <p>
+            {{page.pricing.membership}}
+          </p>
+          <h3>Induction</h3>
+          <p>
+            {{page.pricing.induction}}
+          </p>
+          <h3>Printing</h3>
+          <p>
+            {{page.pricing.printing}}
+          </p>
+          {% if page.pricing.discount-bulk %}
+          <p class="check">
+            <i class='fas fa-check-circle'></i>
+            Discounts for bulk booking
+            {% unless page.pricing.discount-bulk == true %}
+            ({{page.pricing.discount-bulk}})
+            {% endunless %}
+          </p>
+          {% endif %}
+          {% if page.pricing.discount-students %}
+          <p class="check">
+            <i class='fas fa-check-circle'></i>
+            Discounts for students
+            {% unless page.pricing.discount-students == true %}
+            ({{page.pricing.discount-students}})
+            {% endunless %}
+          </p>
+          {% endif %}
+        </section>
+        {% if page.black-and-white %}
+        <section class="printing">
+          <h2 class="black-and-white"><abbr title="Black and White">B&W</abbr> printing facilities</h2>
+          <p>
+            Print from {{ page.black-and-white.formats | join: ", "}}.
+          </p>
+          <p>
+            Print on paper up to {{page.black-and-white.max-size}}.
+          </p>
+        </section>
+        {% endif %}
+        {% if page.colour %}
+        <section class="printing">
+          <h2 class="colour">Colour printing facilities</h2>
+          <p>
+            Print from {{ page.colour.formats | join: ", "}}.
+          </p>
+          <p>
+            Print on paper up to {{page.colour.max-size}}.
+          </p>
+        </section>
+        {% endif %}
+        {% if page.additional %}
+        <section>
+          <h2>Additional services</h2>
+          {% if page.additional.process-film %}
+          <div class="check">
+            <i class='fas fa-check-circle'></i>
+            Film processing facilities
+            {% unless page.additional.process-film == true %}
+            ({{page.additional.process-film}})
+            {% endunless %}
+          </div>
+          {% endif %}
+          {% if page.additional.training %}
+          <div class="check">
+            <i class='fas fa-check-circle'></i>
+            {% unless page.additional.training == true %}
+            <a href="{{page.additional.training}}">
+            {% endunless %}
+            Training courses
+            {% unless page.additional.training == true %}
+            </a>
+            {% endunless %}
+          </div>
+          {% endif %}
+        </section>
+        {% endif %}
+      </main>
+      <aside>
+        <a class="gmaps" href="{{page.contact.gmaps-link}}">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=&zoom=15&scale=2&size=340x226&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C{{page.contact.postcode}}&key=AIzaSyD_ulPWfvFoy0EWsaJ-m-dNLINX-zkexGw" alt="Google Map of {{page.title}}">
+        </a>
+        <div class="main-photo">
+          <img src="/images{{page.id}}.jpg" alt=""/>
+        </div>
+      </aside>
+      <footer>
+        Spotted a mistake or something missing? Get in touch at
+        <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
+      </footer>
+    </div>
+  </body>
+</html>

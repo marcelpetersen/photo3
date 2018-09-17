@@ -1,0 +1,46 @@
+---
+layout: darkroom
+title:  "The Camera Club"
+categories: black-and-white
+contact:
+  address-summary:  "Kennington, SE11"
+  email: "darkroom@thecameraclub.co.uk"
+  address: "16 Bowden Street"
+  postcode: "SE11 4DS"
+  phone: "020 7587 1809"
+  official-site: "http://thecameraclub.co.uk/facilities/darkrooms/"
+  facebook: "https://www.facebook.com/cameraclublondon"
+  gmaps-link: "https://goo.gl/maps/RzdGnzLkGXx"
+
+opening:
+  monday: "11:00 – 22:00"
+  tuesday: "11:00 – 22:00"
+  wednesday: "11:00 – 22:00"
+  thursday: "11:00 – 22:00"
+  friday: "11:00 – 22:00"
+  saturday: "10:00 – 18:00"
+  sunday: "10:00 – 18:00"
+  open-weekends: true
+  open-weekday-evenings: true
+
+pricing:
+  membership: "£120 per year"
+  induction: "Included in membership fee"
+  printing: "£5 per hour"
+  discount-students: true
+
+black-and-white:
+  formats:
+  - "35mm"
+  - "medium format"
+  - "large format (8×10″)"
+  max-size: "size TBC"
+
+additional:
+  training: "http://thecameraclub.co.uk/events/group-workshops/"
+
+---
+
+The Camera Club is one of the longest running photographic societies in the world. From the earliest days, printing has been a key element for dedicated photographers in producing exhibition quality prints.
+
+The Camera Club has four separate darkrooms for individual working, grouped around a general area containing RC and FB driers and two film driers.
