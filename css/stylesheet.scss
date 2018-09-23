@@ -434,3 +434,30 @@ li.comingsoon {
     color: #666;
     cursor: not-allowed;
 }
+
+/* map */
+
+.map-infobox {
+  font-family: $font-stack;
+  text-decoration: none;
+
+  .title {
+    display: block;
+    font-weight: $semi-bold;
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .address-summary {
+    font-weight: $light;
+    font-size: 20px;
+    display: block;
+    clear: left;
+  }
+}
+
+.map-infobox:hover {
+  text-decoration: none;
+
+  .title { text-decoration: underline; }
+}
