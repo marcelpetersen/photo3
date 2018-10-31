@@ -461,3 +461,21 @@ li.comingsoon {
 
   .title { text-decoration: underline; }
 }
+
+body.map-view {
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+
+    nav, footer {
+        flex-grow:0;
+    }
+
+    nav .menu {
+      padding-bottom: 10px;
+    }
+
+    main {
+        flex-grow:1;
+    }
+}

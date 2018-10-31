@@ -3,19 +3,14 @@ layout: map
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%">
   <head>
     <title>Darkrooms in London for Film Photography</title>
     {% include head.html %}
   </head>
-  <body>
+  <body class="map-view">
     {% include nav.html %}
-    <div class="content-area">
-      <header>
-        <h1>There are {{site.darkrooms | size}} public darkrooms in London.</h1>
-      </header>
-      <main style="height: 100%">
-        <div id='map' style='width: 100%; height: 100%;'></div>
+      <main id="map">
         <script>
           function initMap() {
             var centralLondon = {lat: 51.515419, lng:  -0.141099};
@@ -234,8 +229,6 @@ layout: map
         Spotted a mistake or something missing? Get in touch at
         <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
       </footer>
-    </div>
-
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoHNXHD8nvPxIWO-_RyosXcTBFXrOZdb4&callback=initMap">
     </script>
