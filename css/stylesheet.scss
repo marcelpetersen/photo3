@@ -414,6 +414,45 @@ a:hover .title {
   .menu-toggle img {
     max-width: 100%;
   }
+
+  // mobile view of map
+  body.map-view {
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+
+      nav, footer {
+          flex-grow:0;
+      }
+
+      nav .menu {
+        padding-bottom: 10px;
+      }
+
+      main {
+          flex-grow:1;
+      }
+  }
+}
+
+@media all and (min-width: 600px) {
+  body.map-view {
+      display:flex;
+      flex-direction:row;
+      min-height:100vh;
+
+      nav {
+          min-height:85vh;
+          padding-bottom: 0;
+          flex: 2;
+      }
+
+      main {
+          flex: 6;
+      }
+
+
+  }
 }
 
 /* fancy focus */
@@ -460,22 +499,4 @@ li.comingsoon {
   text-decoration: none;
 
   .title { text-decoration: underline; }
-}
-
-body.map-view {
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
-
-    nav, footer {
-        flex-grow:0;
-    }
-
-    nav .menu {
-      padding-bottom: 10px;
-    }
-
-    main {
-        flex-grow:1;
-    }
 }
