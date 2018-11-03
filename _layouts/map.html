@@ -15,7 +15,13 @@ layout: map
           function initMap() {
             var centralLondon = {lat: 51.515419, lng:  -0.141099};
             var map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 12, center: centralLondon, mapTypeControl:false, streetViewControl: false, styles: [
+                document.getElementById('map'), {
+                  zoom: 12,
+                  center: centralLondon,
+                  mapTypeControl:false,
+                  streetViewControl: false,
+                  gestureHandling: greedy,
+                  styles: [
                           {
                             "elementType": "geometry",
                             "stylers": [
