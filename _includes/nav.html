@@ -18,6 +18,11 @@
       <li class="comingsoon">
         <span class="title">Film processing</span> <span class="subtitle">Where to get your film professionally developed and scanned (coming soon)</span>
       </li>
+      <li {% if page.url == '/map.html' %}class="nav-selected"{% endif %}>
+        <a href="/map.html">
+          <span class="title">Near you</span> <span class="subtitle">See all film photography spots on a map</span>
+        </a>
+      </li>
       <li {% if page.url == '/about/' %}class="nav-selected"{% endif %}>
         <a href="/about/">
           <span class="title">About this site</span>
