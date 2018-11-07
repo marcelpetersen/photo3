@@ -9,7 +9,7 @@ contact:
   address: "79 Leonard Street"
   postcode: "EC2A 4QS"
   phone: "020 7729 9292"
-  official-site: "http://www.rapideye.uk.com/darkroom-hire"
+  official-site: "https://www.rapideye.uk.com/"
   facebook: "https://www.facebook.com/Rapid.Eye.London/"
   instagram: "https://www.instagram.com/rapideye.darkroom"
   gmaps-link: "https://goo.gl/maps/raetiX57RRM2"
