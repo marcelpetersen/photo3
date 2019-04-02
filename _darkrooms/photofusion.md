@@ -6,8 +6,8 @@ categories: black-and-white colour
 contact:
   address-summary: "Brixton, SW9"
   email: "darkrooms@photofusion.org"
-  address: "17A Electric Lane"
-  postcode: "SW9 8LA"
+  address: "3Space International House, 6 Canterbury Crescent"
+  postcode: "SW9 7QD"
   phone: "020 7738 5774"
   official-site: "http://www.photofusion.org/darkrooms/"
   facebook: "https://www.facebook.com/Photofusion-106049046305/"
