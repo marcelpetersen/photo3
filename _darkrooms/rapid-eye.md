@@ -9,7 +9,7 @@ contact:
   address: "79 Leonard Street"
   postcode: "EC2A 4QS"
   phone: "020 7729 9292"
-  official-site: "https://www.rapideye.uk.com/"
+  official-site: "https://www.rapideye.uk.com/digital-c-type"
   facebook: "https://www.facebook.com/Rapid.Eye.London/"
   instagram: "https://www.instagram.com/rapideye.darkroom"
   gmaps-link: "https://goo.gl/maps/raetiX57RRM2"
@@ -27,18 +27,22 @@ opening:
 pricing:
   membership: "Not needed"
   induction: "Optional"
-  printing: "£10 per hour (book in 4-hour blocks)"
-  discount-bulk: "£200 for 6 sessions"
+  printing: "£12 per hour (book in 4-hour blocks)"
+  discount-bulk: "£240 for 6 sessions - 24 hours"
+
+black-and-white:
+  formats:
+  - "35mm"
+  - "medium format"
+  - "large format (5×4″)"
+  max-size: "22″ wide"
 
 colour:
   formats:
   - "35mm"
   - "medium format"
-  - "large format (4×5″ or 10×8″ on demand)"  
+  - "large format (10×8″)"  
   max-size: "30×40″"
-
-additional:
-  training: "http://www.rapideye.uk.com/Workshops"
 
 ---
 
