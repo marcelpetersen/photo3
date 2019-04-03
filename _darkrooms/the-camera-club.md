@@ -8,7 +8,7 @@ contact:
   address: "16 Bowden Street"
   postcode: "SE11 4DS"
   phone: "020 7587 1809"
-  official-site: "http://thecameraclub.co.uk/facilities/darkrooms/"
+  official-site: "https://www.thecameraclub.co.uk/facilities/darkrooms/"
   facebook: "https://www.facebook.com/cameraclublondon"
   gmaps-link: "https://goo.gl/maps/RzdGnzLkGXx"
 
@@ -37,7 +37,7 @@ black-and-white:
   max-size: "size TBC"
 
 additional:
-  training: "http://thecameraclub.co.uk/events/group-workshops/"
+  training: "https://www.thecameraclub.co.uk/group-workshops/"
 
 ---
 
