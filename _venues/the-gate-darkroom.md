@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "The Gate Darkroom"
 categories: black-and-white
 

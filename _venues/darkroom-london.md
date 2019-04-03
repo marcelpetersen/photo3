@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Darkroom London"
 categories: black-and-white
 

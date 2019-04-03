@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Photochats"
 categories: black-and-white colour
 

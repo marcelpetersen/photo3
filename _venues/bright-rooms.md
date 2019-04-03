@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Bright Rooms"
 categories: black-and-white
 

@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Four Corners"
 categories: black-and-white colour
 

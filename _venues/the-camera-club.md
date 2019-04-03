@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "The Camera Club"
 categories: black-and-white
 contact:

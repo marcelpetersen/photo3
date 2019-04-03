@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Photofusion"
 categories: black-and-white colour
 

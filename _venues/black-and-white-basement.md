@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Black & White Basement"
 categories: black-and-white
 

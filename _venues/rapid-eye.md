@@ -1,5 +1,4 @@
 ---
-layout: darkroom
 title:  "Rapid Eye"
 categories: colour
 
