@@ -36,7 +36,7 @@ black-and-white:
 
 additional:
   process-film: true
-  training: "http://bwbasement.com/our-services/learn-darkroom-techniques/"
+  training: "http://bwbasement.com/our-services/darkroom-tuition-in-london/"
 
 ---
 
