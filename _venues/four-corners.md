@@ -1,6 +1,6 @@
 ---
 title:  "Four Corners"
-categories: black-and-white colour
+categories: darkroom
 
 contact:
   address-summary:  "Bethnal Green, E2"

@@ -1,6 +1,6 @@
 ---
 title:  "Darkroom London"
-categories: black-and-white
+categories: darkroom
 
 contact:
   address-summary:  "Belsize Park, NW5"

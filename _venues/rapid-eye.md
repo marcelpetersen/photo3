@@ -1,6 +1,6 @@
 ---
 title:  "Rapid Eye"
-categories: colour
+categories: darkroom
 
 contact:
   address-summary:  "Shoreditch, EC2A"

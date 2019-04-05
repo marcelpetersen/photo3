@@ -1,6 +1,6 @@
 ---
 title:  "The Gate Darkroom"
-categories: black-and-white
+categories: darkroom
 
 contact:
   address-summary:  "East Greenwich, SE18"

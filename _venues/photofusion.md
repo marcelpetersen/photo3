@@ -1,6 +1,6 @@
 ---
 title:  "Photofusion"
-categories: black-and-white colour
+categories: darkroom
 
 contact:
   address-summary: "Brixton, SW9"

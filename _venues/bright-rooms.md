@@ -1,6 +1,6 @@
 ---
 title:  "Bright Rooms"
-categories: black-and-white
+categories: darkroom
 
 contact:
   address-summary:  "Peckham, SE15"

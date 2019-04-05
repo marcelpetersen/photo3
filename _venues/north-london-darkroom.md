@@ -1,6 +1,6 @@
 ---
 title:  "North London Darkroom"
-categories: black-and-white
+categories: darkroom
 
 contact:
   address-summary:  "Tottenham Hale, N17"

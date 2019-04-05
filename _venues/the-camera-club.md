@@ -1,6 +1,6 @@
 ---
 title:  "The Camera Club"
-categories: black-and-white
+categories: darkroom
 contact:
   address-summary:  "Kennington, SE11"
   email: "darkroom@thecameraclub.co.uk"

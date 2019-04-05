@@ -1,6 +1,6 @@
 ---
 title:  "Photochats"
-categories: black-and-white colour
+categories: darkroom
 
 contact:
   address-summary: "Homerton, E9"

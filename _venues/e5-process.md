@@ -1,6 +1,6 @@
 ---
 title:  "E5 Process"
-categories: black-and-white colour
+categories: darkroom
 
 contact:
   address-summary:  "Homerton, E5"

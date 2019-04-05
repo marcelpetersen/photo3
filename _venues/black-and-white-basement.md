@@ -1,6 +1,6 @@
 ---
 title:  "Black & White Basement"
-categories: black-and-white
+categories: darkroom
 
 contact:
   address-summary:  "St Johns Wood, NW8"
