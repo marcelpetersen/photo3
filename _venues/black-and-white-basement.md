@@ -21,21 +21,23 @@ opening:
   saturday: "Closed"
   sunday: "Closed"
 
-pricing:
-  membership: "Not required"
-  induction: "Basic guidance included with printing"
-  printing: "£10/hr (4 hours) or £7.5/hr (full day)"
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "16×20″"
+  pricing:
+    membership: "Not required"
+    induction: "Basic guidance included with printing"
+    printing: "£10/hr (4 hours) or £7.5/hr (full day)"
 
-additional:
-  process-film: true
-  training: "http://bwbasement.com/our-services/darkroom-tuition-in-london/"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "16×20″"
+
+  additional:
+    process-film: true
+    training: "http://bwbasement.com/our-services/darkroom-tuition-in-london/"
 
 ---
 

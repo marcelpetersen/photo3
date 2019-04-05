@@ -23,25 +23,27 @@ opening:
   sunday: "11.00 - 17.00"
   open-weekends: "Sunday only"
 
-pricing:
-  membership: "Not needed"
-  induction: "Optional"
-  printing: "£12 per hour (book in 4-hour blocks)"
-  discount-bulk: "£240 for 6 sessions - 24 hours"
+darkroom: 
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "22″ wide"
+  pricing:
+    membership: "Not needed"
+    induction: "Optional"
+    printing: "£12 per hour (book in 4-hour blocks)"
+    discount-bulk: "£240 for 6 sessions - 24 hours"
 
-colour:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (10×8″)"  
-  max-size: "30×40″"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "22″ wide"
+
+  colour:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (10×8″)"  
+    max-size: "30×40″"
 
 ---
 

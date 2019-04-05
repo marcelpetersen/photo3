@@ -21,22 +21,23 @@ opening:
   saturday: "10:00-16:00"
   sunday: "Closed for courses"
   open-weekends: "Saturday only"
+  
+darkroom:
+  pricing:
+    membership: "£40/year"
+    induction: "Included in membership fee"
+    printing: "£7.50/hr (4 hours minimum)"
+    discount-bulk: true
 
-pricing:
-  membership: "£40/year"
-  induction: "Included in membership fee"
-  printing: "£7.50/hr (4 hours minimum)"
-  discount-bulk: true
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (TBC)"
+    max-size: "size TBC"
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (TBC)"
-  max-size: "size TBC"
-
-additional:
-  training: "https://thebrightrooms.com/courses/"
+  additional:
+    training: "https://thebrightrooms.com/courses/"
 
 ---
 

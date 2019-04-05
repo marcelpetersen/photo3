@@ -22,28 +22,30 @@ opening:
   sunday: "10:00 - 18:00"
   open-weekends: true
 
-pricing:
-  membership: "Not required"
-  induction: "£45"
-  printing: "£5 per hour (4 hours minimum)"
-  discount-bulk: true
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (8×10″)"
-  max-size: "16×20″"
+  pricing:
+    membership: "Not required"
+    induction: "£45"
+    printing: "£5 per hour (4 hours minimum)"
+    discount-bulk: true
 
-colour:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (10×8″)"  
-  max-size: "20×24″"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (8×10″)"
+    max-size: "16×20″"
 
-additional:
-  training: true
+  colour:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (10×8″)"  
+    max-size: "20×24″"
+
+  additional:
+    training: true
 
 ---
 

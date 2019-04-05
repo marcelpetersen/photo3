@@ -55,13 +55,13 @@ layout: darkrooms
             </div>
             <span class="title">{{darkroom.title}}</span>
             <span class="address-summary">{{darkroom.contact.address-summary}}</span>
-            {% if darkroom.categories contains 'black-and-white' %}
+            {% if darkroom.darkroom.black-and-white %}
             <span class="black-and-white-printing">
              <img class="printing-icon" src="/icons/black-and-white.svg"/>
               Black & white
             </span>
             {% endif %}
-            {% if darkroom.categories contains 'colour' %}
+            {% if darkroom.darkroom.colour %}
             <span class="colour-printing">
               <img class="printing-icon" src="/icons/colour.svg"/>
               Colour

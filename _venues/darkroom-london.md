@@ -23,21 +23,23 @@ opening:
   open-weekends: true
   open-weekday-evenings: true
 
-pricing:
-  membership: "From £60/year"
-  induction: "£20 (free for some membership tiers)"
-  printing: "£7.50/hr"
-  discount-bulk: true
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "16″x20″"
+  pricing:
+    membership: "From £60/year"
+    induction: "£20 (free for some membership tiers)"
+    printing: "£7.50/hr"
+    discount-bulk: true
 
-additional:
-  training: "https://www.darkroomlondon.org/partners/"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "16″x20″"
+
+  additional:
+    training: "https://www.darkroomlondon.org/partners/"
 
 ---
 

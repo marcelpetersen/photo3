@@ -94,77 +94,77 @@ layout: darkroom
           <h2><i class="fas fa-pound-sign"></i> Pricing</h2>
           <h3>Membership fee</h3>
           <p>
-            {{page.pricing.membership}}
+            {{page.darkroom.pricing.membership}}
           </p>
           <h3>Induction</h3>
           <p>
-            {{page.pricing.induction}}
+            {{page.darkroom.pricing.induction}}
           </p>
           <h3>Printing</h3>
           <p>
-            {{page.pricing.printing}}
+            {{page.darkroom.pricing.printing}}
           </p>
-          {% if page.pricing.discount-bulk %}
+          {% if page.darkroom.pricing.discount-bulk %}
           <p class="check">
             <i class='fas fa-check-circle'></i>
             Discounts for bulk booking
-            {% unless page.pricing.discount-bulk == true %}
-            ({{page.pricing.discount-bulk}})
+            {% unless page.darkroom.pricing.discount-bulk == true %}
+            ({{page.darkroom.pricing.discount-bulk}})
             {% endunless %}
           </p>
           {% endif %}
-          {% if page.pricing.discount-students %}
+          {% if page.darkroom.pricing.discount-students %}
           <p class="check">
             <i class='fas fa-check-circle'></i>
             Discounts for students
-            {% unless page.pricing.discount-students == true %}
-            ({{page.pricing.discount-students}})
+            {% unless page.darkroom.pricing.discount-students == true %}
+            ({{page.darkroom.pricing.discount-students}})
             {% endunless %}
           </p>
           {% endif %}
         </section>
-        {% if page.black-and-white %}
+        {% if page.darkroom.black-and-white %}
         <section class="printing">
           <h2 class="black-and-white"><abbr title="Black and White">B&W</abbr> printing facilities</h2>
           <p>
-            Print from {{ page.black-and-white.formats | join: ", "}}.
+            Print from {{ page.darkroom.black-and-white.formats | join: ", "}}.
           </p>
           <p>
-            Print on paper up to {{page.black-and-white.max-size}}.
+            Print on paper up to {{page.darkroom.black-and-white.max-size}}.
           </p>
         </section>
         {% endif %}
-        {% if page.colour %}
+        {% if page.darkroom.colour %}
         <section class="printing">
           <h2 class="colour">Colour printing facilities</h2>
           <p>
-            Print from {{ page.colour.formats | join: ", "}}.
+            Print from {{ page.darkroom.colour.formats | join: ", "}}.
           </p>
           <p>
-            Print on paper up to {{page.colour.max-size}}.
+            Print on paper up to {{page.darkroom.colour.max-size}}.
           </p>
         </section>
         {% endif %}
-        {% if page.additional %}
+        {% if page.darkroom.additional %}
         <section>
           <h2>Additional services</h2>
-          {% if page.additional.process-film %}
+          {% if page.darkroom.additional.process-film %}
           <div class="check">
             <i class='fas fa-check-circle'></i>
             Film processing facilities
-            {% unless page.additional.process-film == true %}
-            ({{page.additional.process-film}})
+            {% unless page.darkroom.additional.process-film == true %}
+            ({{page.darkroom.additional.process-film}})
             {% endunless %}
           </div>
           {% endif %}
-          {% if page.additional.training %}
+          {% if page.darkroom.additional.training %}
           <div class="check">
             <i class='fas fa-check-circle'></i>
-            {% unless page.additional.training == true %}
-            <a href="{{page.additional.training}}">
+            {% unless page.darkroom.additional.training == true %}
+            <a href="{{page.darkroom.additional.training}}">
             {% endunless %}
             Training courses
-            {% unless page.additional.training == true %}
+            {% unless page.darkroom.additional.training == true %}
             </a>
             {% endunless %}
           </div>

@@ -24,20 +24,22 @@ opening:
   open-weekends: true
   open-weekday-evenings: true
 
-pricing:
-  membership: "£80 per month (minimum 3 months, plus £20 refundable key deposit)"
-  induction: "£30"
-  printing: "Included in membership"
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "size TBC"
+  pricing:
+    membership: "£80 per month (minimum 3 months, plus £20 refundable key deposit)"
+    induction: "£30"
+    printing: "Included in membership"
 
-additional:
-  training: "https://www.facebook.com/pg/TheGateDarkroom/events/"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "size TBC"
+
+  additional:
+    training: "https://www.facebook.com/pg/TheGateDarkroom/events/"
 
 ---
 

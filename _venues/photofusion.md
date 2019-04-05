@@ -24,28 +24,30 @@ opening:
   open-weekends: "Saturday only"
   open-weekday-evenings: "Thursdays only"
 
-pricing:
-  membership: "£50/year (optional, offers discounted prices)"
-  induction: "TBC"
-  printing: "£6.6 per hour (book in 6-hour blocks on weekdays daytime & Saturdays), £7 per hour (book in 4-hour blocks on Thursday evenings)"
-  discount-students: Yes
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "16×20″"
+  pricing:
+    membership: "£50/year (optional, offers discounted prices)"
+    induction: "TBC"
+    printing: "£6.6 per hour (book in 6-hour blocks on weekdays daytime & Saturdays), £7 per hour (book in 4-hour blocks on Thursday evenings)"
+    discount-students: Yes
 
-colour:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (10×8″)"  
-  max-size: "20×24″"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "16×20″"
 
-additional:
-  training: "http://www.photofusion.org/photography-courses/"
+  colour:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (10×8″)"  
+    max-size: "20×24″"
+
+  additional:
+    training: "http://www.photofusion.org/photography-courses/"
 
 ---
 

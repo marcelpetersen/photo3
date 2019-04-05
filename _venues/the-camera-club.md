@@ -22,21 +22,23 @@ opening:
   open-weekends: true
   open-weekday-evenings: true
 
-pricing:
-  membership: "£120 per year"
-  induction: "Included in membership fee"
-  printing: "£5 per hour"
-  discount-students: true
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (8×10″)"
-  max-size: "size TBC"
+  pricing:
+    membership: "£120 per year"
+    induction: "Included in membership fee"
+    printing: "£5 per hour"
+    discount-students: true
 
-additional:
-  training: "https://www.thecameraclub.co.uk/group-workshops/"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (8×10″)"
+    max-size: "size TBC"
+
+  additional:
+    training: "https://www.thecameraclub.co.uk/group-workshops/"
 
 ---
 

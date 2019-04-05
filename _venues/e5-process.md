@@ -23,29 +23,31 @@ opening:
   open-weekends: true
   open-weekday-evenings: true
 
-pricing:
-  membership: "£60/year (offers discounted pricing)"
-  induction: "TBC"
-  printing: "£5/hr"
-  discount-bulk: true
+darkroom: 
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "20″x24″"
+  pricing:
+    membership: "£60/year (offers discounted pricing)"
+    induction: "TBC"
+    printing: "£5/hr"
+    discount-bulk: true
 
-colour:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (5×4″)"
-  max-size: "16″x20″"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "20″x24″"
+
+  colour:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (5×4″)"
+    max-size: "16″x20″"
 
 
-additional:
-  training: "http://e5process.co.uk/workshop/"
+  additional:
+    training: "http://e5process.co.uk/workshop/"
 
 ---
 

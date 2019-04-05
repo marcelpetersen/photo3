@@ -21,27 +21,28 @@ opening:
   saturday: "10.00 - 18.00 (first Saturday of each month only)"
   sunday: "Closed"
   open-weekends: "first Saturday of each month only"
+  
+darkroom: 
+  pricing:
+    membership: "£50 per year"
+    induction: "Included with membership"
+    printing: "B&W: £6.25 per hour, Colour: £7.50/hour, book in blocks of 4 hours only"
+    discount-students: "reduced membership fee"
+    discount-bulk: true
 
-pricing:
-  membership: "£50 per year"
-  induction: "Included with membership"
-  printing: "B&W: £6.25 per hour, Colour: £7.50/hour, book in blocks of 4 hours only"
-  discount-students: "reduced membership fee"
-  discount-bulk: true
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (8×10″)"
+    max-size: "20×24″"
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (8×10″)"
-  max-size: "20×24″"
-
-colour:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (8×10″)"
-  max-size: "30×40″"
+  colour:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (8×10″)"
+    max-size: "30×40″"
 
 ---
 

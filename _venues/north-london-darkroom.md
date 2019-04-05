@@ -24,21 +24,23 @@ opening:
   open-weekends: true
   open-weekday-evenings: true
 
-pricing:
-  membership: "£195/month + £300 deposit (minimum four months)"
-  induction: "TBC"
-  printing: "Included in membership fee"
+darkroom:
 
-black-and-white:
-  formats:
-  - "35mm"
-  - "medium format"
-  - "large format (10×8″)"
-  max-size: "16×20″"
+  pricing:
+    membership: "£195/month + £300 deposit (minimum four months)"
+    induction: "TBC"
+    printing: "Included in membership fee"
 
-additional:
-  process-film: true
-  training: "http://www.londondarkroom.com/shop/workshops/"
+  black-and-white:
+    formats:
+    - "35mm"
+    - "medium format"
+    - "large format (10×8″)"
+    max-size: "16×20″"
+
+  additional:
+    process-film: true
+    training: "http://www.londondarkroom.com/shop/workshops/"
 
 ---
 
