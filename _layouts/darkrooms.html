@@ -42,7 +42,7 @@ layout: darkrooms
   <body>
     {% include nav.html %}
     {% assign darkrooms = site.darkrooms | 
-      where_exp:"darkroom", "item.categories contains 'darkroom'"  %}
+      where_exp:"venue", "venue.categories contains 'darkroom'"  %}
     <div class="content-area">
       <header>
         <h1>There are {{darkrooms | size}} public darkrooms in London.</h1>
