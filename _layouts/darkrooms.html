@@ -41,13 +41,15 @@ layout: darkrooms
   </head>
   <body>
     {% include nav.html %}
+    {% assign darkrooms = site.darkrooms | 
+      where_exp:"darkroom", "item.categories contains 'darkroom'"  %}
     <div class="content-area">
       <header>
-        <h1>There are {{site.darkrooms | size}} public darkrooms in London.</h1>
+        <h1>There are {{darkrooms | size}} public darkrooms in London.</h1>
       </header>
       <main>
       <ul id="darkroom-list">
-        {% for darkroom in site.darkrooms %}
+        {% for darkroom in darkrooms %}
         <li>
           <a href="{{darkroom.url}}">
             <div class="main-photo">
