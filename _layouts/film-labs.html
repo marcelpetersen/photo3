@@ -1,0 +1,87 @@
+---
+layout: film-labs
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Film Labs in London for Film Development</title>
+    {% include head.html %}
+    <script>
+      function shuffle(a) {
+          var j, x, i;
+          for (i = a.length - 1; i > 0; i--) {
+              j = Math.floor(Math.random() * (i + 1));
+              x = a[i];
+              a[i] = a[j];
+              a[j] = x;
+          }
+        }
+
+
+      $(function(){
+        // randomise darkrooms
+        var nDarkrooms = $("#darkroom-list li").length;
+
+        var orderArray = [];
+        for (var i = 0; i < nDarkrooms; i++) {
+          orderArray[i] = i;
+        }
+        console.log(orderArray);
+        shuffle(orderArray);
+        console.log(orderArray);
+
+        $("#darkroom-list li").each(
+          function (value, index, array) {
+            $(value).css("order", orderArray[index]);
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    {% include nav.html %}
+    {% assign filmlabs = site.darkrooms | 
+      where_exp:"venue", "venue.categories contains 'film-dev'"  %}
+    <div class="content-area">
+      <header>
+        <h1>There are {{filmlabs | size}} film development and scanning labs in London.</h1>
+      </header>
+      <main>
+      <ul id="darkroom-list">
+        {% for lab in filmlabs %}
+        <li>
+            <span class="title">{{lab.title}}</span>
+            <span class="address-summary">{{lab.contact.address-summary}}</span>
+            {% if lab.film-dev.dev-types contains "colour" %}
+            <span class="colour-printing">
+              <img class="printing-icon" src="/icons/colour.svg"/>
+              Colour (C41)
+            </span>
+            {% endif %}
+            {% if lab.film-dev.dev-types contains "black-and-white" %}
+            <span class="black-and-white-printing">
+             <img class="printing-icon" src="/icons/black-and-white.svg"/>
+              Black & white
+            </span>
+            {% endif %}
+            {% if lab.film-dev.dev-types contains "slide" %}
+            <span class="colour-printing">
+              <img class="printing-icon" src="/icons/slide.svg"/>
+              Slide (E6)
+            </span>
+            {% endif %}
+            <p>
+              35mm colour development & scans from {{lab.film-dev.pricing.c41-35mm-dev-scan}}
+            </p>
+        </li>
+        {% endfor %}
+      </ul>
+      </main>
+      <footer>
+        Spotted a mistake or something missing? Get in touch at
+        <a href="mailto:contact@londonfilm.photography">contact@londonfilm.photography</a>.
+      </footer>
+    </div>
+  </body>
+</html>
