@@ -1,6 +1,6 @@
 ---
 title:  "Rapid Eye"
-categories: darkroom
+categories: darkroom film-dev
 
 contact:
   address-summary:  "Shoreditch, EC2A"
@@ -44,6 +44,12 @@ darkroom:
     - "medium format"
     - "large format (10×8″)"  
     max-size: "30×40″"
+    
+film-dev:
+  details: "https://www.rapideye.uk.com/digital-c-type-1"
+  dev-types: "colour black-and-white"  
+  pricing:
+    c41-35mm-dev-scan: "£18.60"
 
 ---
 

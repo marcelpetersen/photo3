@@ -7,6 +7,7 @@ contact:
   email: "analoguefilms3@gmail.com"
   address: "58 Hanbury Street"
   postcode: "E1 5JL"
+  phone: "07983 692 001"
   official-site: "https://www.analoguefilms.co.uk/"
   instagram: "https://www.instagram.com/analoguefilmsltd/"
   gmaps-link: "https://goo.gl/maps/ESj32PAeNTJ2"

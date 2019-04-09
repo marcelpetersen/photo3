@@ -1,0 +1,23 @@
+---
+title:  "Metro Imaging"
+categories: film-dev
+
+contact:
+  address-summary:  "Clerkenwell, EC1V"
+  email: "enquiries@metroimaging.co.uk"
+  address: "32 Great Sutton Street"
+  postcode: "EC1V ONB"
+  phone: "020 7865 0000"
+  official-site: "https://metroimaging.co.uk/photographic-film-processing/"
+  facebook: "https://www.facebook.com/MetroImagingpage"
+  instagram: "https://www.instagram.com/metroimaging/"
+  gmaps-link: "https://goo.gl/maps/Yx4eUkQQmW52"
+  
+film-dev:
+  dev-types: "colour black-and-white slide"  
+  pricing:
+    c41-35mm-dev-scan: "£22.00" 
+  
+---
+
+At Metro Imaging, we have consistently processed photographic film for more than thirty years using the very best dip and dunk photo processing for transparency (E6), negative (C41) and black and white film, along with other services, such as contacting, mini-lab prints and scanning.

@@ -1,6 +1,6 @@
 ---
 title:  "Photofusion"
-categories: darkroom
+categories: darkroom film-dev
 
 contact:
   address-summary: "Brixton, SW9"
@@ -48,6 +48,12 @@ darkroom:
 
   additional:
     training: "http://www.photofusion.org/photography-courses/"
+
+film-dev:
+  details: "https://www.photofusion.org/film-processing/"
+  dev-types: "colour black-and-white"  
+  pricing:
+    c41-35mm-dev-scan: "£15.00"
 
 ---
 
