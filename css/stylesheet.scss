@@ -151,13 +151,45 @@ main #darkroom-list {
   flex-wrap: wrap;
 }
 
+main #film-lab-list {
+  display: flex;
+  flex-direction: column;
+}
+
 #darkroom-list li {
   margin: 1%;
   display: block;
   float: left;
 }
 
-#darkroom-list li .title {
+#film-lab-list {
+  margin-top: 20px;
+  
+  li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: $light;
+  }
+  
+  .name {
+    width: 33%;
+  }
+  
+  .film-types {
+    width: 42%;
+  }
+  
+  .pricing {
+    width: 25%;
+    font-size: 14px;
+    .from-price {
+      font-size: 20px;
+    }
+  }
+}
+
+#darkroom-list li .title, #film-lab-list li .title {
   display: block;
 
   font-weight: $semi-bold;
@@ -165,7 +197,8 @@ main #darkroom-list {
   margin-bottom: 4px;
 }
 
-#darkroom-list li .address-summary {
+
+#darkroom-list li .address-summary, #film-lab-list li .address-summary {
 
   font-weight: $light;
   font-size: 20px;

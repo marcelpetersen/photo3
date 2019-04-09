@@ -48,32 +48,37 @@ layout: film-labs
         <h1>There are {{filmlabs | size}} film development and scanning labs in London.</h1>
       </header>
       <main>
-      <ul id="darkroom-list">
+      <ul id="film-lab-list">
         {% for lab in filmlabs %}
         <li>
-            <span class="title">{{lab.title}}</span>
-            <span class="address-summary">{{lab.contact.address-summary}}</span>
-            {% if lab.film-dev.dev-types contains "colour" %}
-            <span class="colour-printing">
-              <img class="printing-icon" src="/icons/colour.svg"/>
-              Colour (C41)
-            </span>
-            {% endif %}
-            {% if lab.film-dev.dev-types contains "black-and-white" %}
-            <span class="black-and-white-printing">
-             <img class="printing-icon" src="/icons/black-and-white.svg"/>
-              Black & white
-            </span>
-            {% endif %}
-            {% if lab.film-dev.dev-types contains "slide" %}
-            <span class="colour-printing">
-              <img class="printing-icon" src="/icons/slide.svg"/>
-              Slide (E6)
-            </span>
-            {% endif %}
-            <p>
-              35mm colour development & scans from {{lab.film-dev.pricing.c41-35mm-dev-scan}}
-            </p>
+            <div class="name">
+              <span class="title">{{lab.title}}</span>
+              <span class="address-summary">{{lab.contact.address-summary}}</span>              
+            </div>
+            <div class="film-types">
+              {% if lab.film-dev.dev-types contains "colour" %}
+              <span class="colour-printing">
+                <img class="printing-icon" src="/icons/colour.svg"/>
+                Colour (C41)
+              </span>
+              {% endif %}
+              {% if lab.film-dev.dev-types contains "black-and-white" %}
+              <span class="black-and-white-printing">
+               <img class="printing-icon" src="/icons/black-and-white.svg"/>
+                Black & white
+              </span>
+              {% endif %}
+              {% if lab.film-dev.dev-types contains "slide" %}
+              <span class="colour-printing">
+                <img class="printing-icon" src="/icons/slide.svg"/>
+                Slide (E6)
+              </span>
+              {% endif %}              
+            </div>
+            <div class="pricing">
+              35mm colour development & scans from 
+              <span class="from-price">{{lab.film-dev.pricing.c41-35mm-dev-scan}}</span>
+            </div>
         </li>
         {% endfor %}
       </ul>
