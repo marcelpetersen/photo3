@@ -179,27 +179,32 @@ main #film-lab-list {
   margin-top: 20px;
   
   li {
-    display: flex;
-    width: 100%;
+    width: 98%;
     margin-bottom: 20px;
     font-weight: $light;
   }
   
-  .name {
-    width: 33%;
-  }
-  
-  .film-types {
-    width: 42%;
-  }
-  
-  .pricing {
-    width: 25%;
-    font-size: 14px;
-    .from-price {
-      font-size: 20px;
+  .film-dev-basic-info {
+    display: flex;
+    margin: 20px;
+        
+    .name {
+      width: 33%;
     }
+    
+    .film-types {
+      width: 42%;
+    }
+    
+    .pricing {
+      width: 25%;
+      font-size: 14px;
+      .from-price {
+        font-size: 20px;
+      }
+    }    
   }
+  
 }
 
 #darkroom-list li .title, #film-lab-list li .title {
