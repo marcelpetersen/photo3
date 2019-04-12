@@ -50,25 +50,27 @@ layout: darkrooms
       <main>
       <ul id="darkroom-list">
         {% for darkroom in darkrooms %}
-        <li>
+        <li class="card">
           <a href="{{darkroom.url}}">
             <div class="main-photo">
               <img src="images{{darkroom.id}}.jpg" />
             </div>
-            <span class="title">{{darkroom.title}}</span>
-            <span class="address-summary">{{darkroom.contact.address-summary}}</span>
-            {% if darkroom.darkroom.black-and-white %}
-            <span class="black-and-white-printing">
-             <img class="printing-icon" src="/icons/black-and-white.svg"/>
-              Black & white
-            </span>
-            {% endif %}
-            {% if darkroom.darkroom.colour %}
-            <span class="colour-printing">
-              <img class="printing-icon" src="/icons/colour.svg"/>
-              Colour
-            </span>
-            {% endif %}
+            <div class="card-info">
+              <span class="title">{{darkroom.title}}</span>
+              <span class="address-summary">{{darkroom.contact.address-summary}}</span>
+              {% if darkroom.darkroom.black-and-white %}
+              <span class="black-and-white-printing">
+               <img class="printing-icon" src="/icons/black-and-white.svg"/>
+                Black & white
+              </span>
+              {% endif %}
+              {% if darkroom.darkroom.colour %}
+              <span class="colour-printing">
+                <img class="printing-icon" src="/icons/colour.svg"/>
+                Colour
+              </span>
+              {% endif %}            
+            </div>
           </a>
         </li>
         {% endfor %}
