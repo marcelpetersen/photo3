@@ -21,7 +21,7 @@ layout: film-labs
 
       $(function(){
         // randomise darkrooms
-        var nDarkrooms = $("#darkroom-list li").length;
+        var nDarkrooms = $("#film-lab-list li").length;
 
         var orderArray = [];
         for (var i = 0; i < nDarkrooms; i++) {
@@ -31,7 +31,7 @@ layout: film-labs
         shuffle(orderArray);
         console.log(orderArray);
 
-        $("#darkroom-list li").each(
+        $("#film-lab-list li").each(
           function (value, index, array) {
             $(value).css("order", orderArray[index]);
           }
