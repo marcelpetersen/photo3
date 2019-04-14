@@ -41,7 +41,7 @@ layout: film-labs
   </head>
   <body>
     {% include nav.html %}
-    {% assign filmlabs = site.darkrooms | 
+    {% assign filmlabs = site.film-labs | 
       where_exp:"venue", "venue.categories contains 'film-dev'"  %}
     <div class="content-area">
       <header>
