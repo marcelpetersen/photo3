@@ -51,6 +51,7 @@ layout: film-labs
       <ul id="film-lab-list">
         {% for lab in filmlabs %}
         <li class="card">
+          <a href="{{lab.url}}">
             <div class="film-dev-basic-info">
               <div class="name">
                 <span class="title">{{lab.title}}</span>
@@ -81,6 +82,7 @@ layout: film-labs
                 <span class="from-price">{{lab.film-dev.pricing.c41-35mm-dev-scan}}</span>
               </div>              
             </div>
+          </a>
         </li>
         {% endfor %}
       </ul>
