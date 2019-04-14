@@ -36,6 +36,11 @@ layout: film-labs
             $(value).css("order", orderArray[index]);
           }
         );
+        
+        $(".card a").on("click", function () {
+          $(this).parent().find(".film-dev-full-info").toggleClass("hidden");
+        });
+        
       });
     </script>
   </head>
@@ -50,8 +55,8 @@ layout: film-labs
       <main>
       <ul id="film-lab-list">
         {% for lab in filmlabs %}
-        <li class="card">
-          <a href="{{lab.url}}">
+        <li class="card" id="{{lab.slug}}">
+          <a href="#{{lab.slug}}">
             <div class="film-dev-basic-info">
               <div class="name">
                 <span class="title">{{lab.title}}</span>
@@ -81,6 +86,9 @@ layout: film-labs
                 35mm colour development & scans from 
                 <span class="from-price">{{lab.film-dev.pricing.c41-35mm-dev-scan}}</span>
               </div>              
+            </div>
+            <div class="film-dev-full-info hidden">
+              full info
             </div>
           </a>
         </li>
