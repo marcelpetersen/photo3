@@ -194,40 +194,37 @@ layout: map
               }
 
               {% for darkroom in site.darkrooms %}
+              { // create local scope for JS objects
+                let marker = new google.maps.Marker({
+                    map: map,
+                    position: {lat: {{darkroom.contact.latitude}}, lng: {{darkroom.contact.longitude}} },
+                    icon: "/icons/darkroom-marker.svg"
+                });
 
-              geocoder.geocode( { 'address': "{{darkroom.contact.postcode}}"}, function(results, status) {
-                    if (status == 'OK') {
-                      var marker = new google.maps.Marker({
-                          map: map,
-                          position: results[0].geometry.location,
-                          icon: "/icons/darkroom-marker.svg"
-                      });
+                markers.push(marker);
 
-                      markers.push(marker);
+                let contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
+                            '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
 
-                      var contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
-                                  '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
+                let infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
+                marker.infowindow = infowindow
 
-                      var infowindow = new google.maps.InfoWindow({
-                        content: contentString
-                      });
-                      marker.infowindow = infowindow
-
-                      marker.addListener('click', function() {
-                        markers.forEach(function(marker) {
-                          marker.infowindow.close(map, marker);
-                        });
-                        infowindow.open(map, marker);
-                      });
-
-                      bounds.extend(marker.getPosition());
-                      map.fitBounds(bounds);
-                    } else {
-                      alert('Geocode was not successful for the following reason: ' + status);
-                    }
+                marker.addListener('click', function() {
+                  markers.forEach(function(marker) {
+                    marker.infowindow.close(map, marker);
                   });
+                  infowindow.open(map, marker);
+                });
+
+                bounds.extend(marker.getPosition());                
+              }
+              
 
               {% endfor %}
+
+              map.fitBounds(bounds);
           }
         </script>
       </main>
