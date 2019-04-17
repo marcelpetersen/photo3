@@ -37,7 +37,7 @@ layout: film-labs
           }
         );
         
-        $(".card a").on("click", function () {
+        $(".card a.showhide").on("click", function () {
           $(this).parent().find(".film-dev-full-info").toggleClass("hidden");
         });
         
@@ -56,7 +56,7 @@ layout: film-labs
       <ul id="film-lab-list">
         {% for lab in filmlabs %}
         <li class="card" id="{{lab.slug}}">
-          <a href="#{{lab.slug}}">
+          <a class="showhide" href="#{{lab.slug}}">
             <div class="film-dev-basic-info">
               <div class="name">
                 <span class="title">{{lab.title}}</span>
@@ -87,10 +87,27 @@ layout: film-labs
                 <span class="from-price">{{lab.film-dev.pricing.c41-35mm-dev-scan}}</span>
               </div>              
             </div>
-            <div class="film-dev-full-info hidden">
-              full info
-            </div>
           </a>
+          <div class="film-dev-full-info hidden">
+            <a class="address" href="{{lab.contact.gmaps-link}}"><i class="fas fa-map-pin"></i> {{lab.contact.address}}, London {{lab.contact.postcode}}</a>
+
+            {% if lab.contact.phone %}
+            <a class="phone" href="tel:{{lab.contact.phone}}"><i class="fas fa-phone"></i> {{lab.contact.phone}}</a>
+            {% endif %}
+
+            <a class="email" href="mailto:{{lab.contact.email}}"><i class="fas fa-envelope"></i> {{lab.contact.email}}</a>
+            <a class="official-site" href="{{lab.contact.official-site}}"><i class="fas fa-external-link-alt"></i> Official website</a>
+
+            {% if lab.contact.facebook %}
+            <a class="facebook" href="{{lab.contact.facebook}}"><i class="fab fa-facebook"></i> Facebook page</a>
+            {% endif %}
+
+            {% if lab.contact.instagram %}
+            <a class="instagram" href="{{lab.contact.instagram}}"><i class="fab fa-instagram"></i> Instagram page</a>
+            {% endif %}
+
+          </div>
+          
         </li>
         {% endfor %}
       </ul>

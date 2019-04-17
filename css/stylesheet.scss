@@ -209,6 +209,16 @@ main #film-lab-list {
     }    
   }
   
+  .film-dev-full-info {
+    margin: 20px;
+    font-size: 20px;
+    
+    a {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
 }
 
 #darkroom-list li .title, #film-lab-list li .title {
