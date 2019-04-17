@@ -15,8 +15,10 @@
       <li class="comingsoon">
         <span class="title">Shops</span> <span class="subtitle">Where to buy film, paper, processing chemicals and cameras (coming soon)</span>
       </li>
-      <li class="comingsoon">
-        <span class="title">Film processing</span> <span class="subtitle">Where to get your film professionally developed and scanned (coming soon)</span>
+      <li {% if page.url contains '/film-labs.html' %} class="nav-selected"{% endif %} >
+        <a href="/film-labs.html">
+          <span class="title">Film processing</span> <span class="subtitle">Where to get your film professionally developed and scanned</span>
+        </a>
       </li>
       <li {% if page.url == '/map.html' %}class="nav-selected"{% endif %}>
         <a href="/map.html">
