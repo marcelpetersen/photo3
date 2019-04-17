@@ -12,6 +12,8 @@ contact:
   facebook: "https://www.facebook.com/Rapid.Eye.London/"
   instagram: "https://www.instagram.com/rapideye.darkroom"
   gmaps-link: "https://goo.gl/maps/raetiX57RRM2"
+  longitude: -0.082942
+  latitude: 51.524851
 
 opening:
   monday: "9.30 - 17.30"

@@ -10,6 +10,8 @@ contact:
   official-site: "https://www.thecameraclub.co.uk/facilities/darkrooms/"
   facebook: "https://www.facebook.com/cameraclublondon"
   gmaps-link: "https://goo.gl/maps/RzdGnzLkGXx"
+  longitude: -0.110678
+  latitude: 51.487871
 
 opening:
   monday: "11:00 – 22:00"

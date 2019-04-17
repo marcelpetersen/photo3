@@ -11,6 +11,8 @@ contact:
   official-site: "http://bwbasement.com/our-services/photographic-darkroom-hire/"
   facebook: "https://www.facebook.com/bwbasement/"
   gmaps-link: "https://goo.gl/maps/QtKqkSUA8a42"
+  longitude: -0.182051
+  latitude: 51.535266
 
 opening:
   monday: "9:00 – 17:30"

@@ -12,6 +12,8 @@ contact:
   instagram: "https://www.instagram.com/thegatedarkroom/"
   facebook: "https://www.facebook.com/TheGateDarkroom/"
   gmaps-link: "https://goo.gl/maps/3Jjn1oqTbf22"
+  longitude: 0.043296
+  latitude: 51.494832
 
 opening:
   monday: "24h"

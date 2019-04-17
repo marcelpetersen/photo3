@@ -10,6 +10,8 @@ contact:
   phone: "0207 242 2250"
   official-site: "http://www.artfuldodgersimaging.com/"
   gmaps-link: "https://goo.gl/maps/rfU3ZFza7Et"
+  longitude: -0.109068
+  latitude: 51.520857
   
 film-dev:
   dev-types: "colour black-and-white slide"  

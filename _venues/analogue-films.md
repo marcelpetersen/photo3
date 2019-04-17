@@ -11,6 +11,8 @@ contact:
   official-site: "https://www.analoguefilms.co.uk/"
   instagram: "https://www.instagram.com/analoguefilmsltd/"
   gmaps-link: "https://goo.gl/maps/ESj32PAeNTJ2"
+  longitude: -0.070669
+  latitude: 51.520198
   
 film-dev:
   dev-types: "colour black-and-white"  

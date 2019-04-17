@@ -11,6 +11,8 @@ contact:
   official-site: "https://chatspalace.com/events/photochats/2018-01-20/"
   facebook: "https://www.facebook.com/events/1907443445995416/"
   gmaps-link: "https://goo.gl/maps/HXqCJWgYXDC2"
+  longitude: -0.042788
+  latitude: 51.550129
 
 opening:
   monday: "Closed"

@@ -10,6 +10,8 @@ contact:
   phone: "020 7436 1015"
   official-site: "http://apertureuk.com/film-processing-london/"
   gmaps-link: "https://goo.gl/maps/XZVUdtz9RMP2"
+  longitude: -0.134113
+  latitude: 51.51785
   
 film-dev:
   dev-types: "colour black-and-white"  

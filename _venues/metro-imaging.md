@@ -6,13 +6,15 @@ contact:
   address-summary:  "Clerkenwell, EC1V"
   email: "enquiries@metroimaging.co.uk"
   address: "32 Great Sutton Street"
-  postcode: "EC1V ONB"
+  postcode: "EC1V 0NB"
   phone: "020 7865 0000"
   official-site: "https://metroimaging.co.uk/photographic-film-processing/"
   facebook: "https://www.facebook.com/MetroImagingpage"
   instagram: "https://www.instagram.com/metroimaging/"
   gmaps-link: "https://goo.gl/maps/Yx4eUkQQmW52"
-  
+  longitude: -0.101603
+  latitude: 51.523237
+
 film-dev:
   dev-types: "colour black-and-white slide"  
   pricing:

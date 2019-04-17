@@ -12,7 +12,9 @@ contact:
   facebook: "https://www.facebook.com/londondarkroom/"
   instagram: "https://www.instagram.com/northlondondarkroom/"
   gmaps-link: "https://goo.gl/maps/CmzmsZHJxhv"
-
+  longitude: -0.056567
+  latitude: 51.592335
+  
 opening:
   monday: "24hr"
   tuesday: "24hr"

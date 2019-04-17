@@ -10,6 +10,8 @@ contact:
   phone: "0207 387 9882"
   official-site: "http://www.kodakexpresscamden.com/Develop_Process.htm"
   gmaps-link: "https://goo.gl/maps/tTX49sMBLEr"
+  longitude: -0.140457
+  latitude: 51.536215
   
 film-dev:
   dev-types: "colour black-and-white"  

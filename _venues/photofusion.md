@@ -12,6 +12,9 @@ contact:
   facebook: "https://www.facebook.com/Photofusion-106049046305/"
   instagram: "https://www.instagram.com/photofusionuk/"
   gmaps-link: "https://goo.gl/maps/E4WuwpVhLps"
+  longitude: -0.113021
+  latitude: 51.463981
+  
 
 opening:
   monday: "Closed"

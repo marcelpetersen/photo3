@@ -11,6 +11,8 @@ contact:
   facebook: "https://www.facebook.com/BayeuxPhotoLab/"
   instagram: "https://www.instagram.com/bayeux_ltd/"
   gmaps-link: "https://goo.gl/maps/KYk9uRwB7op"
+  longitude: -0.135722
+  latitude: 51.517291
   
 film-dev:
   dev-types: "colour black-and-white slide"  

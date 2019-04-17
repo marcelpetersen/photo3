@@ -11,6 +11,8 @@ contact:
   official-site: "http://www.fourcornersfilm.co.uk/photographic-darkrooms-london"
   facebook: "https://www.facebook.com/FourCornersE2/"
   gmaps-link: "https://goo.gl/maps/wwKTQ1M3Qvw"
+  longitude: -0.049523
+  latitude: 51.528616
 
 opening:
   monday: "10.00 - 18.00"

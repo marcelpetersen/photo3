@@ -11,6 +11,9 @@ contact:
   instagram: "https://www.instagram.com/darkroomlondon/"
   facebook: "https://www.facebook.com/DarkroomDarkroomDarkroom/"
   gmaps-link: "https://goo.gl/maps/w4JzZeFAMFP2"
+  longitude: -0.152666
+  latitude: 51.546983
+  
 
 opening:
   monday: "10.00 - 22.00"

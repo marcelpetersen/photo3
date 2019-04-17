@@ -11,6 +11,8 @@ contact:
   instagram: "https://www.instagram.com/e5process/"
   facebook: "https://www.facebook.com/E5Process"
   gmaps-link: "https://goo.gl/maps/VdyfhyDWpVS2"
+  longitude: -0.040633
+  latitude: 51.552334
 
 opening:
   monday: "10.00 - 22.00"

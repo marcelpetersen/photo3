@@ -11,6 +11,8 @@ contact:
   facebook: "https://www.facebook.com/bwbasement/"
   instagram: "https://www.instagram.com/thebrightrooms/"
   gmaps-link: "https://goo.gl/maps/qqd7o5N7ryC2"
+  longitude: -0.068213
+  latitude: 51.469906
 
 opening:
   monday: "10:00 – 18:00"
