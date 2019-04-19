@@ -41,6 +41,10 @@ layout: film-labs
           $(this).parent().find(".film-dev-full-info").toggleClass("hidden");
         });
         
+        if(window.location.hash) {
+          $(window.location.hash).find(".film-dev-full-info").removeClass("hidden");
+        }
+        
       });
     </script>
   </head>
