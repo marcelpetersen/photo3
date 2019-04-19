@@ -214,17 +214,19 @@ layout: map
                 
                 {% if darkroom.categories contains 'film-dev' and darkroom.categories contains 'darkroom' %}
                 marker.setIcon(multipleIcon)
+                let contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
+                            '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
                 {% elsif darkroom.categories contains 'film-dev' %}
+                let contentString = '<a href="/film-labs.html#{{darkroom.slug}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
+                            '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
                 marker.setIcon(filmLabIcon)
                 {% else %}
+                let contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
+                            '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
                 marker.setIcon(darkroomIcon)
                 {% endif %}
 
-
                 markers.push(marker);
-
-                let contentString = '<a href="{{darkroom.url}}" class="map-infobox"><span class="title">{{darkroom.title}}</span>'+
-                            '<span class="address-summary">{{darkroom.contact.address-summary}}</span></a>';
 
                 let infowindow = new google.maps.InfoWindow({
                   content: contentString
