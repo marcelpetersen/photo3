@@ -198,6 +198,9 @@ main #film-lab-list {
     
     .film-types {
       width: 42%;
+      span {
+        margin-bottom: 5px;
+      }
     }
     
     .pricing {
@@ -479,6 +482,41 @@ a:hover .title {
 
   .menu-toggle img {
     max-width: 100%;
+  }
+
+  #film-lab-list {
+    margin-top: 20px;
+    
+    li {
+      width: 96%;
+      margin-left: 2%;
+      margin-righ: 2%;
+      margin-bottom: 10px;
+      font-weight: $light;
+    }
+    
+    .film-dev-basic-info {
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
+      margin: 20px;
+      
+      div {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      
+      .black-and-white-printing, .colour-printing {
+        font-size: 12px;
+      }
+      
+      .pricing {
+        font-size: 14px;
+        .from-price {
+          font-size: 20px;
+        }
+      }    
+    }
   }
 
   // mobile view of map
