@@ -1,6 +1,6 @@
 ---
 title:  "Bright Rooms"
-categories: darkroom
+categories: darkroom film-dev
 
 contact:
   address-summary:  "Peckham, SE15"
@@ -8,7 +8,6 @@ contact:
   address: "Peckham Levels, Level 3, 95A Rye Lane"
   postcode: "SE15 4ST"
   official-site: "https://thebrightrooms.com/darkroom/"
-  facebook: "https://www.facebook.com/bwbasement/"
   instagram: "https://www.instagram.com/thebrightrooms/"
   gmaps-link: "https://goo.gl/maps/qqd7o5N7ryC2"
   longitude: -0.068213
@@ -39,8 +38,15 @@ darkroom:
     max-size: "size TBC"
 
   additional:
-    training: "https://thebrightrooms.com/courses/"
+    process-film: true
+    training: "https://thebrightrooms.com/workshops/"
+
+film-dev:
+  dev-types: "colour black-and-white slide"  
+  details: "https://thebrightrooms.com/lab/"
+  pricing:
+    c41-35mm-dev-scan: "£7.50" 
 
 ---
 
- Our spacious darkroom is built to be accessible for all. Experience the beauty of analogue printing on one of our De Vere 504 enlargers with your choice of light source. BR staff are on tap if you need us!
+Our spacious darkroom was designed and hand built by us to provide a comfortable & fresh environment to work in. Experience the beauty of analogue printing on one of our De Vere 504 enlargers with your choice of light source. We also have a 10×8 horizontal enlarger for large format printing. You can also use our facilities to develop and scan film as part of your darkroom hours.
