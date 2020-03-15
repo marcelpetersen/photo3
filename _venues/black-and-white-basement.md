@@ -45,7 +45,7 @@ film-dev:
   details: "https://bwbasement.com/analog-film-processing/"
   dev-types: "black-and-white"  
   pricing:
-    c41-35mm-dev-scan: "£00.00"
+    bw-35mm-dev-scan: "£15.00"
 ---
 
 The darkroom is equipped with DeVere 504 / 203 and Leica V35 Autofocus Enlargers all with MultiGrade heads and covering 35mm, 120 Medium Format and 5×4 sheet.
