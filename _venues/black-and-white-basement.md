@@ -1,6 +1,6 @@
 ---
 title:  "Black & White Basement"
-categories: darkroom
+categories: darkroom film-dev
 
 contact:
   address-summary:  "St Johns Wood, NW8"
@@ -8,7 +8,7 @@ contact:
   email: "keith@bwbasement.com"
   address: "Basement, 16 Blenheim Terrace"
   postcode: "NW8 0EB"
-  official-site: "http://bwbasement.com/our-services/photographic-darkroom-hire/"
+  official-site: "https://bwbasement.com/darkroom-hire-london/"
   facebook: "https://www.facebook.com/bwbasement/"
   gmaps-link: "https://goo.gl/maps/QtKqkSUA8a42"
   longitude: -0.182051
@@ -39,8 +39,13 @@ darkroom:
 
   additional:
     process-film: true
-    training: "http://bwbasement.com/our-services/darkroom-tuition-in-london/"
+    training: "https://bwbasement.com/photographic-darkroom-tuition/"
 
+film-dev:
+  details: "https://bwbasement.com/analog-film-processing/"
+  dev-types: "black-and-white"  
+  pricing:
+    c41-35mm-dev-scan: "£00.00"
 ---
 
 The darkroom is equipped with DeVere 504 / 203 and Leica V35 Autofocus Enlargers all with MultiGrade heads and covering 35mm, 120 Medium Format and 5×4 sheet.
