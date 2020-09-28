@@ -1,6 +1,6 @@
 ---
 title:  "Zouweboezem"
-categories: darksroom
+categories: darkroom
 
 contact:
   address-summary:  "East Greenwich, SE18"
