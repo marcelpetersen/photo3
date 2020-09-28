@@ -1,6 +1,6 @@
 ---
-title:  "The Gate Darkroom"
-categories: darkroom
+title:  "Zouweboezem"
+categories: natuur
 
 contact:
   address-summary:  "East Greenwich, SE18"
@@ -8,12 +8,12 @@ contact:
   address: "Unit 0 – Studio 003, Thames-Side Studios, Harrington Way"
   postcode: "SE18 5NR"
   phone: "020 7587 1809"
-  official-site: "https://www.thegatedarkroom.co.uk/"
-  instagram: "https://www.instagram.com/thegatedarkroom/"
-  facebook: "https://www.facebook.com/TheGateDarkroom/"
-  gmaps-link: "https://goo.gl/maps/3Jjn1oqTbf22"
-  longitude: 0.043296
-  latitude: 51.494832
+  official-site: "https://www.zuidhollandslandschap.nl/nl/page/697"
+  instagram: "https://www.instagram.com/zhlandschap/"
+  facebook: "https://www.facebook.com/ZHLandschap"
+  gmaps-link: "https://goo.gl/maps/sSDVNsSDtnsdNU7t7"
+  longitude: 4.9728584
+  latitude: 51.9502696
 
 opening:
   monday: "24h"
